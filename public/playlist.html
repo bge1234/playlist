@@ -6,7 +6,12 @@
     <link rel="stylesheet" href="css/playlist.css">
   </head>
   <body>
-    <header><p id="head">Click an album to add its tracks to the bin:</p></header>
+    <header>
+      <div id="top"></div>
+      <div id="bottom">
+        <p id="head">Click an album to add its tracks to the bin:</p>
+      </div>
+    </header>
     <main>
       <div id="albumarea"></div>
       <div id="trackarea">
@@ -15,7 +20,8 @@
         <button id="send">Submit bin</button>
       </div>
     </main>
-    <a href=index.html><footer><p id="foot">&#169 2015 Ben Ebel</p></footer></a>
+    <a href=index.html><footer>
+      <p id="foot">&#169 2015 Ben Ebel</p></footer></a>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/playlist.js"></script>
   </body>

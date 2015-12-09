@@ -3,6 +3,10 @@
   color: #B8B8B1;
 }
 
+body {
+  margin: 0;
+}
+
 header {
   background: #9B9B8C;
   max-width: 100vw;
@@ -47,7 +51,7 @@ footer {
 
 #trackarea {
   max-width: 100vw;
-  height: 60vh;
+  height: 55vh;
 }
 
 #trackoutput {
@@ -57,10 +61,14 @@ footer {
   margin-bottom: 20px;
 }
 
-.album {
+.albumimg {
   height: 80%;
   margin-top: 10px;
   width: same-as-height;
+}
+
+.albumdiv {
   margin-left: 4vw;
   margin-right: 4vw;
+  display: inline;
 }

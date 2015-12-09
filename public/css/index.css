@@ -3,6 +3,10 @@
   color: #B8B8B1;
 }
 
+body {
+  margin: 0;
+}
+
 header {
   background: #9B9B8C;
   max-width: 100vw;

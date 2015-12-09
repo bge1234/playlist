@@ -16,6 +16,6 @@ $(document).ready(function() {
 
 function getAllAlbumCovers(response) {
   for(var i = 0; i < response["results"].length; i++) {
-    $("#albumarea").append("<img class='album' src='images/" + response["results"][i]["cover_art"] + "'>");
+    $("#albumarea").append("<div class ='albumdiv' id='" + response["results"][i]["title"] + "'><img class='albumimg' src='images/" + response["results"][i]["cover_art"] + "'></div>");
   }
 };

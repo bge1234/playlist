@@ -6,12 +6,7 @@
 header {
   background: #9B9B8C;
   max-width: 100vw;
-  height: 10vh;
-}
-
-main {
-  max-width: 100vw;
-  height: 80vh;
+  height: 15vh;
 }
 
 button {
@@ -20,6 +15,9 @@ button {
   color: #B8B8B1;
   margin-left: 31px;
   margin-top: 0;
+  width: 150px;
+  font-size: 18px;
+  border-radius: 5px;
 }
 
 footer {
@@ -28,8 +26,33 @@ footer {
   height: 10vh;
 }
 
-#headfoot {
-  padding-top: 22px;
-  padding-left: 15vh;
+#head, #foot {
   color: white;
+  padding-left: 15vh;
+}
+
+#head {
+  padding-top: 62px;
+  font-size: 22px;
+}
+
+#foot {
+  padding-top: 22px;
+}
+
+#albumarea {
+  height: 15vh;
+  overflow: scroll;
+}
+
+#trackarea {
+  max-width: 100vw;
+  height: 60vh;
+}
+
+#trackoutput {
+  height: 50%;
+  width: 100%;
+  border: solid 2px #353526;
+  margin-bottom: 20px;
 }

@@ -42,7 +42,7 @@ footer {
 
 #albumarea {
   height: 15vh;
-  overflow: scroll;
+  overflow: auto;
 }
 
 #trackarea {
@@ -55,4 +55,12 @@ footer {
   width: 100%;
   border: solid 2px #353526;
   margin-bottom: 20px;
+}
+
+.album {
+  height: 80%;
+  margin-top: 10px;
+  width: same-as-height;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }

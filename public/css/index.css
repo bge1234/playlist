@@ -60,3 +60,17 @@ footer {
   width: 50%;
   height: 103%;
 }
+
+#albumcovers {
+  z-index: 2;
+  position: absolute;
+  height: 80%;
+  width: 19vw;
+  margin-left: 64%;
+}
+
+.cover {
+  width: 100%;
+  height: same-as-width;
+  max-height: 26vh;
+}

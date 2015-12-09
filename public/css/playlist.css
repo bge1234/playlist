@@ -1,0 +1,35 @@
+* {
+  font-family: avenir;
+  color: #B8B8B1;
+}
+
+header {
+  background: #9B9B8C;
+  max-width: 100vw;
+  height: 10vh;
+}
+
+main {
+  max-width: 100vw;
+  height: 80vh;
+}
+
+button {
+  background: #353526;
+  border-radius: 5px;
+  color: #B8B8B1;
+  margin-left: 31px;
+  margin-top: 0;
+}
+
+footer {
+  background: #686859;
+  max-width: 100vw;
+  height: 10vh;
+}
+
+#headfoot {
+  padding-top: 22px;
+  padding-left: 15vh;
+  color: white;
+}

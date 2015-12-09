@@ -15,6 +15,16 @@
     <main>
       <div id="albumarea"></div>
       <div id="trackarea">
+        <div id="albuminfo">
+          <p id="albumtext">Add tracks from:</p>
+          <p id="albumname"></p>
+          <div id="currentcover"></div>
+        </div>
+        <select id="tracklist" multiple></select>
+        <div id="arrows">
+          <img id="addtrack" src="resources/rightarrow.png" height="25" width="25">
+          <img id="removetrack" src="resources/leftarrow.png" height="25" width="25">
+        </div>
         <div id="trackoutput"></div>
         <button id="clear">Clear tracks</button>
         <button id="send">Submit bin</button>
@@ -23,6 +33,7 @@
     <a href=index.html><footer>
       <p id="foot">&#169 2015 Ben Ebel</p></footer></a>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="resources/tracks.js"></script>
     <script type="text/javascript" src="js/playlist.js"></script>
   </body>
 </html>

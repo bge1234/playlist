@@ -1,4 +1,4 @@
-{
+var tracks = {
   "Ghost in the Machine": [
     {
       "track_number": 1,
@@ -54,7 +54,7 @@
       "track_number": 11,
       "name": "Darkness",
       "time": "3:14"
-    },
+    }
   ],
 
   "Red": [
@@ -112,7 +112,7 @@
       "track_number": 11,
       "name": "Darkness",
       "time": "3:14"
-    },
+    }
   ],
 
   "The Division Bell": [
@@ -170,7 +170,7 @@
       "track_number": 11,
       "name": "High Hopes",
       "time": "8:31"
-    },
+    }
   ],
 
   "Thriller": [
@@ -278,4 +278,4 @@
       "time": "4:47"
     }
   ]
-}
+};

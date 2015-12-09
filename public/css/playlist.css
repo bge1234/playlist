@@ -18,7 +18,6 @@ button {
   background: #353526;
   border-radius: 5px;
   color: #B8B8B1;
-  margin-left: 31px;
   margin-top: 0;
   width: 150px;
   font-size: 18px;
@@ -56,6 +55,10 @@ footer {
   padding-top: 22px;
 }
 
+a {
+  text-decoration: none;
+}
+
 #albumarea {
   height: 15vh;
   overflow: auto;
@@ -69,17 +72,47 @@ footer {
   margin: 0 auto;
 }
 
-#trackoutput {
+#albuminfo {
   height: 50%;
-  width: 100%;
-  border: solid 2px #353526;
-  margin-bottom: 20px;
+  width: 27%;
   margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.output {
-  color: black;
-  line-height: 2;
+#tracklist {
+  height: 50%;
+  width: 27%;
+  border: solid 2px #353526;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: auto;
+}
+
+#arrows {
+  height: 50%;
+  width: 2%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 55px;
+  float: left;
+}
+
+#trackoutput {
+  height: 50%;
+  width: 26%;
+  border: solid 2px #353526;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: auto;
 }
 
 .albumimg {
@@ -92,4 +125,25 @@ footer {
   margin-left: 4vw;
   margin-right: 4vw;
   display: inline;
+}
+
+.currcover {
+  height: 10vh;
+  width: same-as-height;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.output, .currtitle, #albumtext {
+  color: black;
+  line-height: 1.5;
+}
+
+.currtitle {
+  margin-top: 0;
+  margin-bottom: 0
+}
+
+option {
+  font-size: 16px;
 }

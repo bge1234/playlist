@@ -134,7 +134,7 @@ a {
   margin-bottom: 10px;
 }
 
-.output, .currtitle, #albumtext {
+.output, .currtitle, #albumtext, .bincontents {
   color: black;
   line-height: 1.5;
 }

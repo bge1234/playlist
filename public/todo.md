@@ -1,0 +1,3 @@
+- Collection should be an array of objects containing artist and album along with  track name. Have to loop through both datasets and use conditionals to find matching info to track name.
+- If you add a track to the righthand column and then move to a different album, you can no longer remove the previous album's tracks, even though they will show back up in the lefthand column.
+- Tracks moved from right to left no longer get erased because their classes are different (in order to prevent the righthand column from getting cleared).
